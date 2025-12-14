@@ -60,19 +60,25 @@
 
     .post-category {
       font-size: 11px;
-      text-transform:;
+      text-transform: uppercase;
     }
 
     footer {
       margin-top: 64px;
       font-size: 11px;
     }
-    img {
+  img {
   width: 100%;
   display: block;
   margin: 8px 0;
 }
-  </style>
+
+audio {
+  width: 100%;
+  margin: 8px 0 12px 0;
+}
+
+</style>
 </head>
 <body>
 
@@ -93,12 +99,15 @@
     <!-- newest first -->
 
     <article class="post">
-      <div class="post-date">2025-03-12</div>
-      <div class="post-title">Silence is a Statement</div>
-      <img src="images/graustufen.png" alt="">
+  <div class="post-date">2025-03-12</div>
 
-      <div class="post-category">Etwas aus dem Boden stampfen</div>
-    </article>
+  <audio controls loop preload="none">
+    <source src="test.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="post-title">Silence is a Statement</div>
+  <div class="post-category">Thoughts</div>
+</article>
 
     <article class="post">
       <div class="post-date">2025-03-02</div>
