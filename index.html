@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes</title>
+  <style>
+    /* anti-design: no comfort, no polish, only intent */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff;
+      color: #000;
+      line-height: 1.3;
+      padding: 16px;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    nav {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    nav a {
+      margin-right: 12px;
+      text-decoration: none;
+      color: #000;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 640px;
+    }
+
+    .post {
+      margin-bottom: 24px;
+    }
+
+    .post-date {
+      font-size: 11px;
+    }
+
+    .post-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .post-category {
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    footer {
+      margin-top: 64px;
+      font-size: 11px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">All</a>
+      <a href="#">Art</a>
+      <a href="#">Music</a>
+      <a href="#">Fashion</a>
+      <a href="#">Thoughts</a>
+      <a href="#">Culture</a>
+      <a href="#">Archive</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- newest first -->
+
+    <article class="post">
+      <div class="post-date">2025-03-12</div>
+      <div class="post-title">Silence is a Statement</div>
+      <div class="post-category">Thoughts</div>
+    </article>
+
+    <article class="post">
+      <div class="post-date">2025-03-02</div>
+      <div class="post-title">Uniforms over Outfits</div>
+      <div class="post-category">Fashion</div>
+    </article>
+
+    <article class="post">
+      <div class="post-date">2025-02-18</div>
+      <div class="post-title">Less Interface, More Intention</div>
+      <div class="post-category">Art</div>
+    </article>
+
+    <article class="post">
+      <div class="post-date">2025-02-01</div>
+      <div class="post-title">The Loop Never Ends</div>
+      <div class="post-category">Music</div>
+    </article>
+
+  </main>
+
+  <footer>
+    © 2025
+  </footer>
+
+</body>
+</html>
